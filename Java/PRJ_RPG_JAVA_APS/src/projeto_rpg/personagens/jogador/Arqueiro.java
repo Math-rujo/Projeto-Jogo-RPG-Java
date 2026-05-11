@@ -2,13 +2,13 @@ package projeto_rpg.personagens.jogador;
 
 public class Arqueiro extends Jogador{
 	
-	public Arqueiro(String nome, int idade, char sexo)
+	public Arqueiro(String nome)
 	{
-		super(nome, "Arqueiro", idade, sexo);
+		super(nome, "Arqueiro");
 		
-		setAtaque(30);
-		setDefesa(8);
-		setVidaMaxima(70);
-		setPontosVida(70);
+		setAtaque(25);
+		setDefesa(18);
+		setVidaMaxima(100);
+		setPontosVida(100);
 	}
 }

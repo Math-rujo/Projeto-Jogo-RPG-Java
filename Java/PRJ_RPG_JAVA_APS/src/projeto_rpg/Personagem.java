@@ -5,8 +5,6 @@ public class Personagem {
 	// Atributos - basicos
 	private String nome;
 	private String classe;
-	private int idade;
-	private char sexo;
 	
 	// Atributos - jogo
 	private int level = 1;
@@ -21,12 +19,10 @@ public class Personagem {
 	private int precisao = 60;
 	
 	// Construtor Personagem
-	public Personagem(String nome, String classe, int idade, char sexo)
+	public Personagem(String nome, String classe)
 	{
 		this.nome = nome;
 		this.classe = classe;
-		this.idade = idade;
-		this.sexo = sexo;
 	}
 	
 	// Metodos - basicos - Getters Setters
@@ -54,38 +50,6 @@ public class Personagem {
 	public void setClasse(String classe)
 	{
 		this.classe = classe;
-	}
-	
-	// Idade
-	public int getIdade()
-	{
-		return idade;
-	}
-	
-	public void setIdade(int idade)
-	{
-		if(idade >=8) 
-		{
-			this.idade = idade;
-		}
-		else
-			System.out.println("Digite uma idade valida!!!");
-	}
-	
-	// Sexo
-	public char getSexo()
-	{
-		return sexo;
-	}
-	
-	public void setSexo(char sexo)
-	{
-		if(sexo == 'F' || sexo == 'f' || sexo == 'M' || sexo == 'm')
-			this.sexo = sexo;
-		else 
-		{
-	        System.out.println("Sexo inválido! Use 'M' ou 'F'.");
-	    }
 	}
 	
 	// Metodos - Jogo - Getters
@@ -165,7 +129,6 @@ public class Personagem {
 	    return curasVidaDisponiveis;
 	}
 
-	
 	// Metodos - jogo
 	
 	public void exibirFicha()

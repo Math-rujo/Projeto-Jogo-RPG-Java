@@ -2,11 +2,11 @@ package projeto_rpg.personagens.jogador;
 
 public class Mago extends Jogador{
 	
-	public Mago(String nome, int idade, char sexo)
+	public Mago(String nome)
 	{
-		super(nome, "Mago", idade, sexo);
+		super(nome, "Mago");
 		
-		setAtaque(30);
+		setAtaque(40);
 		setDefesa(8);
 		setVidaMaxima(70);
 		setPontosVida(70);

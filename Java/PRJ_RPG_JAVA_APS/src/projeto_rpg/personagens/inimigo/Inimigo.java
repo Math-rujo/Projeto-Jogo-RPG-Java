@@ -6,7 +6,7 @@ public class Inimigo extends Personagem{
 	protected int xp;
 
 	public Inimigo(String nome, String tipo) {
-	        super(nome, tipo, 0, 'M');
+	        super(nome, tipo);
 	        this.tipo = tipo;
 	    }
 
