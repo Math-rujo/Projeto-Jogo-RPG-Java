@@ -1,4 +1,4 @@
-#### Jogo básico de RPG em Java
+## Jogo básico de RPG em Java
 
 Este projeto tem como base explorar os conceitos de Programação Orientada a Objeto,
 buscando estudar classes, heranças, plimorfismo, encapsulamento entre outros tópicos presente
