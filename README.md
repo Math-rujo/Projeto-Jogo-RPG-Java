@@ -1,50 +1,90 @@
-## Jogo básico de RPG em Java
+# Jogo RPG em Java
 
-Este projeto tem como base explorar os conceitos de Programação Orientada a Objeto,
-buscando estudar classes, heranças, plimorfismo, encapsulamento entre outros tópicos presente
-a em programação orientaça a objeto. O jogo consiste em batalhar com npc's através de um modelo
-muito famoso em diversos jogos de RPG, que é o RPG em turnos, ou seja, cada ação do jogador ou do npc
-é realizada em um turno.
+Um jogo de RPG 2D desenvolvido em Java utilizando Programação Orientada a Objetos e Java Swing.
+O jogador pode criar seu personagem, escolher uma classe, explorar um mapa, encontrar inimigos e participar de batalhas por turnos.
+O projeto foi desenvolvido com o objetivo de praticar conceitos de Programação Orientada a Objetos, como:
+
+- Classes e objetos;
+- Encapsulamento;
+- Herança;
+- Polimorfismo;
+- Métodos e atributos;
+- Interfaces gráficas;
+- Eventos de teclado e mouse;
+- Colisões entre objetos;
+- Animações e timers.
 
 ## Demonstração
 
 ![Demo](imagens/Video_demo_RPG.gif)
 
 ## Tecnologias utilizadas
-- Java 21
-- Java Swing
+
+- Java 21;
+- Java Swing;
+- Programação Orientada a Objetos;
+- Java AWT;
+- Eventos de teclado e mouse;
+- Graphics2D;
+- Timer do Swing.
 
 ## Funcionalidades
-O projeto consiste em um jogo de fácil compreensão, podendo:
-- Criar personagens,
-- Selecionar classes do jogador:
-  - Guerreiro,
-  - Mago,
+
+### Personagem
+
+- Criação de personagem;
+- Escolha entre três classes:
+  - Guerreiro;
+  - Mago;
   - Arqueiro.
-- Subir de nivéis e ficar mais fortes,
-- Lutar com três inimigos diferentes, com atribuitos distintos entre si:
-  - Goblin (Nível fácil),
-  - Orc (Nível médio),
-  - Dragão (Nível Difícil),
+- Sistema de nível;
+- Sistema de experiência;
+- Atributos de ataque e defesa;
+- Sistema de vida;
+- Sistema de cura.
 
-Além disso o jogo possui um sistema de movimentação através de um mapa, onde pode-se
-chegar aos inimigos citados, uma pequena HUD com suas informações, como nome, nível, experiencia,
-vida, ataque, defesa e opções de "Ficha', que exibe todos os atributos do personagem, e "Sair" que volta para a tela inicial.
-Já na tela de menu, temos a opção de "Jogar", onde o jogador é direcinado a uma tela de criação de personagem, e lgoa depois o jogo começa,
-têm-se também uma opção de controles, onde há um pequeno texto que ensina como jogar,
-inclui-se também uma opção de créditos, visto que lá encontran-se os criadores e os recursos utilizados,
-por fim têm-se a opção de sair que ao ser selecionado ela fecha o jogo.
-Vale ressaltar que o jogo possui duas trilhas sonoras que são tocadas de forma aleatória ao iniciar o jogo, visto que a música é
-somente interrompida quando o jogo é fechado, pois ela toca em loop.
-Portanto, esse é um projeto bem simples, desenvolvido para aprender na prática uma nova linguagem de programação, no caso Java,
-e entrar em contato com um novo paradigma programação, a orientação a objeto.
+### Exploração
 
-## Obejtivo
-Esta atividade tem como objetivo, desenvolver lógica e estrutura de programação, como citado anteriormente utilizando o paradigma
-de programação orientada a objeto, visando explorar os tópicos presente em tal estrutura, ao disernimento de subclasses e superclasse,
-atributos e métodos protegidos, uso de getters e setters, uso de uma interface gráfica, que no projeto foi utilizado o java swing, dado que
-dentro das interfaces principalmente no mapa utilizou-se bastante o conceito de colisão entre objetos pertencentes aquele mapa, e também houve uma pequena animação
-no movimento do personagem ao se delocar pelo mapa. Tudo isso teve o propósito de criar um jogo interativo para o usuario.
+- Movimentação pelo mapa utilizando WASD;
+- Animação de movimento;
+- Sistema de colisão;
+- Inimigos espalhados pelo mapa;
+- HUD com informações do personagem.
+
+### Batalha
+
+- Sistema de batalha por turnos;
+- Ataque;
+- Defesa;
+- Cura;
+- Fuga;
+- Inimigos com diferentes atributos;
+- Sistema de vitória e derrota;
+- Ganho de experiência após vencer batalhas.
+
+### Inimigos
+
+- Goblin — dificuldade fácil;
+- Orc — dificuldade média;
+- Dragão — dificuldade difícil.
+
+## Objetivo
+
+O principal objetivo deste projeto é aplicar, na prática, conceitos de Programação Orientada a Objetos utilizando Java.
+
+Durante o desenvolvimento foram explorados conceitos como:
+
+- Superclasses e subclasses;
+- Herança;
+- Encapsulamento;
+- Polimorfismo;
+- Getters e setters;
+- Interfaces gráficas;
+- Colisão entre objetos;
+- Animação;
+- Eventos de teclado e mouse.
+
+Além do aprendizado da linguagem Java, o projeto também teve como objetivo desenvolver uma aplicação interativa utilizando uma estrutura semelhante à de um jogo de RPG.
 
 ## Demonstração
 
@@ -71,3 +111,22 @@ no movimento do personagem ao se delocar pelo mapa. Tudo isso teve o propósito 
 ### Gameplay
 
 ![Gameplay](imagens/gameplay.png)
+
+## Como executar
+
+### Requisitos
+
+- Java JDK 21 ou superior;
+- Uma IDE compatível com Java, como Eclipse ou IntelliJ IDEA.
+
+### Execução
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/Math-rujo/Projeto-Jogo-RPG-Java.git
+```
+
+2. Abra o projeto na sua IDE;
+3. Localize a classe principal;
+4. Execute o método main.
