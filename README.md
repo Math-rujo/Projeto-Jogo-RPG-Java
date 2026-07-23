@@ -1,10 +1,14 @@
-## Jogo básico de RPG em Java
+#### Jogo básico de RPG em Java
 
 Este projeto tem como base explorar os conceitos de Programação Orientada a Objeto,
 buscando estudar classes, heranças, plimorfismo, encapsulamento entre outros tópicos presente
 a em programação orientaça a objeto. O jogo consiste em batalhar com npc's através de um modelo
 muito famoso em diversos jogos de RPG, que é o RPG em turnos, ou seja, cada ação do jogador ou do npc
 é realizada em um turno.
+
+## Demonstração
+
+![Demo](imagens/Video_demo_RPG.gif)
 
 ## Tecnologias utilizadas
 - Java 21
