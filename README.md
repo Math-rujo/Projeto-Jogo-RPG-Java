@@ -44,20 +44,26 @@ no movimento do personagem ao se delocar pelo mapa. Tudo isso teve o propósito 
 
 ## Demonstração
 
-Menu
+### Menu
+
 ![Menu](imagens/menu.png)
 
-Criação de personagem
+### Criação de personagem
+
 ![Criar Personagem](imagens/criar_personagem.png)
 
-Controles
+### Controles
+
 ![Tutorial](imagens/controles.png)
 
-Créditos
+### Créditos
+
 ![Creditos](imagens/creditos.png)
 
-Mapa
+### Mapa
+
 ![Mapa](imagens/mapa.png)
 
-Gameplay
+### Gameplay
+
 ![Gameplay](imagens/gameplay.png)
